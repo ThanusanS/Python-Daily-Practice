@@ -61,3 +61,142 @@ x = "Now I'm a string"
 ---
 
 
+
+# 🔹 Multiple Assignment
+## Assign values to multiple variables at once:
+
+```
+a, b, c = 1, 2, 3
+x = y = z = 100  # All assigned 100
+``` 
+
+
+
+---
+
+
+# 🔹 Swapping Values
+## Python lets you swap variable values easily.
+
+```
+a = 5
+b = 10
+a, b = b, a
+print(a, b)  # 10 5
+```
+---
+
+# 🔹 Constants (By Convention)
+## Python doesn't have true constants, but you can use uppercase names:
+
+```
+PI = 3.14159
+MAX_USERS = 100
+```
+
+---
+# 🔹 Variable Naming Styles
+
+
+| Style       | Example     | Use Case                |
+| ----------- | ----------- | ----------------------- |
+| snake\_case | `user_name` | ✅ Recommended in Python |
+| camelCase   | `userName`  | ❌ JavaScript style      |
+| UPPER\_CASE | `MAX_SPEED` | ✅ For constants         |
+
+
+---
+
+
+# 🔹 String Variables
+```
+first_name = "Thanusan"
+greeting = "Hello, " + first_name
+print(greeting)  # Hello, Thanusan
+```
+---
+
+# 🔹 Numeric Variables
+```
+price = 49.99
+quantity = 3
+total = price * quantity
+print("Total:", total)
+```
+
+---
+
+
+
+
+
+# 🔹 Boolean Variables
+```
+is_online = True
+is_empty = False
+print(is_online)  # True
+```
+
+
+---
+
+
+# 🔹 type() and isinstance()
+```
+
+x = 42
+print(type(x))                # <class 'int'>
+print(isinstance(x, int))     # True
+```
+
+# 🔹 Reserved Keywords (Cannot be used as variable names)
+``` Examples: and, as, break, class, continue, def, else, False, for, if, import, None, True, while, etc.```
+
+
+
+---
+
+# ✅  Practice Task
+## Try creating the following variables:
+```
+
+your_name = "Your Name"
+age = 20
+height = 5.7
+is_student = True
+```
+
+## Then print them all using:
+```
+print(your_name, age, height, is_student)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
