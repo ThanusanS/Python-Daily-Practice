@@ -1,4 +1,4 @@
-# Daily Python Practice
+# Daily Python Practice.
 
 This repository tracks my daily Python learning journey.  
 Each day is organized into folders with notes and code examples.
